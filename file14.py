@@ -54,12 +54,8 @@ def main():
     except Exception as e:
         print(f"{Re}Error : {e}")
         return
-    
-    print(f"\n{Gr} SHOW INFORMATION USERNAME\n")
 
+    print(f"\n{Gr} SHOW INFORMATION USERNAME\n")
     for site, url in results.items():
         print(f"{Wh} {Gr}+ {Wh} {site} : {Gr}{url}")
-
     print(f"\n FOUND: {hobby} hobbies, {social} social, {forum} forums and {other} others")
-
-main()
